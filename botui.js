@@ -23,7 +23,7 @@
   var botui = new BotUI("codetiger");
   botui.message.bot({
     delay: 200,
-    content: "Hi, there👋"
+    content: "Hi👋"
   }).then(function () {
     return botui.message.bot({
       delay: 1000,
@@ -85,7 +85,7 @@
     }).then(function () {
       return botui.message.bot({
         delay: 1500,
-        content: "平常喜欢健身💪，轻度兽控"
+        content: "平常喜欢健身💪，闲来画点画，轻度兽控"
       })
     }).then(function () {
       return botui.action.button({
